@@ -87,8 +87,7 @@ var processRequest = function (assistant_id, session_id, service, textMsg) {
             'message_type': 'text',
             'text': textMsg,
             'options': {
-                'return_context': true,
-				'debug': false
+                'return_context': true
             }
         },
         context: {}
