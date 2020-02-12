@@ -1,0 +1,18 @@
+{
+  "name": "simple_watson_v2",
+  "version": "0.0.1",
+  "description": "simple IBM Watson Assistant V2 application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "Aumer Hadi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.3.1",
+    "memory-cache": "^0.2.0"
+  }
+}
